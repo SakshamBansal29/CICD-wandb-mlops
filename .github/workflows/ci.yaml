@@ -1,1 +1,13 @@
+name: GitHub Actions Demo
 
+on: [push]
+
+jobs:
+  First-Job:
+    runs-on: windows-latest
+    steps:
+      - name: hello
+        run: | 
+          echo "Hello World"
+          
+     
