@@ -6,8 +6,14 @@ jobs:
   First-Job:
     runs-on: windows-latest
     steps:
+      - uses: actions/checkout@v4
       - name: hello
         run: | 
           echo "Hello World"
+      - name: run python scripts
+        run: |
+          pip install -r requirements.txt
+          python ci.py
+
           
      
