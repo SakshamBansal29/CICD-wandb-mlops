@@ -1,4 +1,4 @@
 "# CICD-wandb-mlops" 
 "# CICD-wandb-mlops" 
 
-Resources for W&B MLOPS
+Resources, files for W&B MLOPS
