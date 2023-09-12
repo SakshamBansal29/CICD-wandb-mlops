@@ -1,8 +1,8 @@
 name: trigger-demo
-
-on: 
+on:
   push:
-    - main
+    branches:
+      - main
   pull_requests:
   workflow_dispatch:  
 
