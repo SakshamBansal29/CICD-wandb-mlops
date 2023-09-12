@@ -3,13 +3,12 @@ on:
   push:
     branches:
       - main
-  pull_requests:
+  pull_request:
   workflow_dispatch:  
 
 jobs:
   trigger-demo:
     runs-on: windows-latest
     steps:
-        run: | 
-          echo "Hello World"
+      - run: echo "Hello"       
       
